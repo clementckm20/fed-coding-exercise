@@ -1,0 +1,101 @@
+.App {
+  height: inherit;
+  width: inherit;
+}
+
+.warning {
+  color: darken(red, 20%);
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: inherit;
+  width: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.dd-logo {
+  height: 150px;
+}
+
+// Added class
+
+.App-header {
+  height: 100%;
+  width: inherit;
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: flex-start; /* Safari 7.0+ */
+  display: flex;
+  align-items: flex-start;
+}
+
+.App-intro-box {
+  height: 100%;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-intro {
+  max-width: 40%;
+  font-size: 40px;
+  font-weight: 400;
+  max-width: 50%;
+  color: white;
+}
+
+.App-title {
+   align-self: flex-start;
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding-top: 30px;
+   padding-left: 60px;
+}
+
+
+.App-background {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("space-photo.jpeg") no-repeat center center fixed;
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-arrow {
+
+   align-self: flex-end;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
