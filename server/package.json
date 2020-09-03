@@ -10,6 +10,6 @@
   "author": "Josh Nelsson-Smith, Deloitte Digital",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^18.x.x"
+    "@hapi/hapi": "^19.x.x"
   }
 }
